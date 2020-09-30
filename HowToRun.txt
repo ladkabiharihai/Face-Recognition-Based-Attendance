@@ -1,0 +1,18 @@
+1. install python 3.6 recommended(3.6.8)
+
+2. run command
+   -->pip install -rrequirement.txt
+
+3. put image files in mydatabase in a folder named as 
+   student name roll no and yr
+
+4. run command
+   -->python encodingFaces.py -e my_encodings.pickle -i mydatabase -d hog
+   this will take all the images from database and
+   encode them to recoginze faces
+
+5. run command
+   -->python RecognizeFaceAttendence.py -e  my_encodings.pickle  -d hog
+   this command will take the live video and show u option
+   to recognize then save then quit using r,s,q respectively
+   this will mark attendence with date and time
